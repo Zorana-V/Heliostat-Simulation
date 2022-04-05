@@ -1,0 +1,74 @@
+; SORCE Spectral Irradiance
+;
+; ***SELECTION CRITERIA***
+; date range: 20030414 to 20200225
+; cadence: 24 hours (daily)
+; spectral range:  240.0 to 2413.0 nm
+; number of data:  7142777
+; identifier_product_doi: 10.5067/LDDKZ3PXZZ5G
+; identifier_product_doi_authority: http://dx.doi.org/
+; ***END SELECTION CRITERIA***
+;
+; ***DATA DEFINITIONS***, number = 9 (name, type, format)
+; nominal_date_yyyymmdd, R8, f10.1
+; nominal_date_jdn, R8, f10.1
+; min_wavelength, R4, f8.2 (nm)
+; max_wavelength, R4, f8.2 (nm)
+; instrument_mode_id, I2, i3
+; data_version, I2, i3
+; irradiance, R4, e11.4 (W/m^2/nm)
+; irradiance_uncertainty, R4, e11.4 (W/m^2/nm, 1 sigma)
+; quality, R4, f8.1 (avg # days between nominal date and measurement times)
+; ***END DATA DEFINITIONS***
+;
+; Background on the SORCE-SIM Spectral Irradiance Measurements
+; 
+; The SORCE-SIM Solar Spectral Irradiance (SSI) data products are provided on
+; a fixed wavelength scale which varies in spectral resolution from 1-34 nm over
+; the entire spectral range. Irradiances are reported at a mean solar distance
+; of 1 AU and zero relative line-of-sight velocity with respect to the Sun.
+; 
+; As a separate data product, a composite SORCE SSI using the XPS, SOLSTICE and
+; SIM instruments, covering 0.1-2412.3 nm, is also delivered daily to
+; http://lasp.colorado.edu/lisird/data/sorce_ssi_l3/.
+; 
+; Table: SORCE-SIM Solar Spectral Irradiance (SSI) Measurement Summary.
+; 
+; Measuring Instrument       SIM (Spectral Irradiance Monitor)
+; Temporal Cadence           Daily
+; Detector                   Radiometer (ESR) and Photodiodes (UV, VIS, & IR)
+; Instrument Modes           31 (ESR), 41 (VIS), 43 (UV), 44 (IR)
+; Spectral Range             240-2412.3 nm
+; Spectral Resolution        variable (1-34 nm)
+; Accuracy                   2%
+; Long-Term Repeatability    < 0.1%/yr
+; 
+; DATA QUALITY and IRRADIANCE UNCERTAINTY are reported in V27. MISSING data have
+; values of 0.0000e+00 for both IRRADIANCE and IRRADIANCE UNCERTAINTY. UV data 
+; before mission day 800 (yyyymmdd = 20050403) in the 306-310 nm bandpass are
+; treated as MISSING due to potential saturaton. All IR (950-1600 nm) IRRADIANCE
+; UNCERTAINTY values are set to 2.5000e-04. See the SORCE-SIM V27 release notes 
+; for justification and further details.
+; 
+; The spectral irradiances are tabulated below ("DATA RECORDS"), with each
+; row giving the nominal date, the wavelength band, the SORCE-SIM instrument
+; mode, the data version, the spectral irradiance, its 1-sigma uncertainty,
+; and a "quality" measure--the average of the time differences (in days)
+; between the nominal date and the measurement times. Each field (column)
+; is defined and described in the "DATA DEFINITIONS" above. An IDL file reader
+; (http://lasp.colorado.edu/data/sorce/file_readers/read_lasp_ascii_file.pro)
+; is available which will read this file and return an array of structures whose
+; field names and types are taken from the "DATA DEFINITIONS" section.
+; 
+; Jerald Harder (2020), SORCE SIM Level 3 Solar Spectral Irradiance Daily Means V027, 
+; Greenbelt, MD, USA, Goddard Earth Sciences Data and Information Services Center 
+; (GES DISC), Accessed [Data Access Date] at http://dx.doi.org/10.5067/LDDKZ3PXZZ5G
+; 
+; This data file and other SORCE data products may be obtained from:
+; http://lasp.colorado.edu/home/sorce/data/
+; 
+; For more information on the SORCE instruments and data products, see:
+; 
+; http://lasp.colorado.edu/home/sorce/
+;
+; ***DATA RECORDS***, number =      7142777
