@@ -9,3 +9,4 @@ reflecting off of the indexed heliostat on the selected date.
 ### List of directories you'll need to run code
 - Irradiance data
 - Data simulation information
+- 
