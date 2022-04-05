@@ -12,4 +12,8 @@ reflecting off of the indexed heliostat on the selected date.
 - Data Simulation Information
 - Reflectivity of Ag economy (Silver_Economy.xlsx)
 - Reflectivity of Al (Alum.xlsx)
-- Reflectivity of Ag (Sliver.xlsx)
+- Reflectivity of Ag (Silver.xlsx)
+
+## Sources
+- Link to [Irradiance Data](https://lasp.colorado.edu/home/sorce/data/)
+- Reflectivity of [materials](https://www.thorlabs.com/navigation.cfm?guide_id=2317) 
