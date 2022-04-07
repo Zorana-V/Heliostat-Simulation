@@ -17,3 +17,6 @@ reflecting off of the indexed heliostat on the selected date.
 ## Sources
 - Link to [Irradiance Data](https://lasp.colorado.edu/home/sorce/data/)
 - Reflectivity of [materials](https://www.thorlabs.com/navigation.cfm?guide_id=2317) 
+
+# Credit
+This project was done as an independent research project for the University of Florida Mechanical and Aerospace Engineering Department. Thank you to Dr. Jonathan Scheffe for his supervision and advice.
